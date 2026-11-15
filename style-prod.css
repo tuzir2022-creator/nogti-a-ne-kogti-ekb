@@ -224,3 +224,6 @@ main { max-width: var(--wrap); margin: 0 auto; padding: 0 var(--gut); }
 
 .s-steps__n { width: 46px; height: 46px; }
 .s-steps__n svg { width: 22px; height: 22px; display: block; }
+
+/* gt-fix: Jost bold, tight tracking glues the Cyrillic pair g+t into one letter (15.11.2026) */
+h1, h2, h3, .s-bar__brand { letter-spacing: .035em; }
